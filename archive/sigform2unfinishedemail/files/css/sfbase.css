@@ -1,0 +1,119 @@
+form.contact{margin-bottom:0px;}
+form.contact fieldset {
+  margin-bottom: 10px;
+}
+form.contact legend {
+  padding: 0 2px;
+  font-weight: bold;
+}
+form.contact label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+}
+form.contact fieldset ol {
+  margin: 0;
+  padding: 0;
+}
+form.contact fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+form.contact fieldset fieldset {
+  border: none;
+  margin: 3px 0 0;
+}
+form.contact fieldset fieldset legend {
+  padding: 0 0 5px;
+  font-weight: normal;
+}
+form.contact fieldset fieldset label {
+  display: block;
+  width: auto;
+}
+span.required {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+form.contact label {
+  width: 120px; /* Width of labels */
+}
+form.contact fieldset fieldset label {
+  margin-left: 123px; /* Width plus 3 (html space) */
+}
+
+form.contact .error_msg {
+	font-size:0.85em;
+	color:#F73C3C;
+	margin-left:10px;
+	padding-left:20px;
+	background:url('images/cross.jpg') no-repeat 0% 50%;
+}
+
+#contact_lightsoff{
+ display:none;
+ position:fixed;
+ _position:absolute;
+ height:100%; width:100%;
+ top:0; left:0;
+ background:#000;
+ z-index:999;}
+ 
+#wrapper {
+position:absolute;
+width: 450px;
+z-index:9999;}
+
+#form_wrapper {
+	border-left:1px dotted #F73C3C;
+	border-right:1px dotted #F73C3C;
+	background-color:#FFFFFF;
+	}
+
+#form_wrapper {
+display:none;
+}
+
+#contact_form form{
+padding:12px;
+}
+
+#contact_form p {
+padding: 30px 20px 0px 20px;
+margin:0;
+}
+
+#contact_form {	
+}
+
+#form_wrapper .form_loader {
+	margin:0 auto;
+	left: 30%;
+	top: 15%;
+	display: none;
+	background: url('images/loader.gif') no-repeat left 50%;
+	width: 128px;
+	min-height: 128px;
+	position: absolute;
+}
+
+#form_tab{
+	width: 105px;
+	height: 28px;
+	-webkit-border-radius: 0px 0px 10px 5px;
+	-moz-border-radius: 0px 0px 10px 5px;
+	border-radius: 0px 0px 10px 5px;
+	float:right;
+	cursor:pointer;
+}
+#form_tab.open {	background: #FFFFFF url('images/close-label.png') no-repeat center center;}
+#form_tab.closed {	background: #FFFFFF url('images/contact-label.png') no-repeat center center;}
+
+.closed {
+-webkit-box-shadow: #CBCBCB 2px 2px 3px;
+-moz-box-shadow: #CBCBCB 2px 2px 3px; 
+box-shadow: #CBCBCB 2px 2px 3px;
+border-bottom: 1px solid #F8F4E5;
+}
