@@ -15,7 +15,7 @@
 				 	$holder = $('<div class="form_wrapper"/>').appendTo($wrapper),
 				 	$tab = $('<div class = "form_tab closed"><a href = "contact.php"></a></div>').appendTo($wrapper);
 				
-				$back.click(function(event){tabClose(); });
+				$back.click(function(event){contact(event); });
 				$tab.click(function(event){contact(event); });
 			}
 			else {var $holder = $('<div class="form_wrapper"/>').appendTo(this);}
